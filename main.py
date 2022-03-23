@@ -1,3 +1,4 @@
+
 def hello_world(request):
     """Responds to any HTTP request.
     Args:
@@ -15,3 +16,4 @@ def hello_world(request):
     else:
         return f'Hello cloud advocates and bljat and second test!!!'
 		#fuck your mum1
+		#fuck your mum2
