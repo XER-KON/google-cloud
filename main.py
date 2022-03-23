@@ -14,3 +14,4 @@ def hello_world(request):
         return request_json['message']
     else:
         return f'Hello cloud advocates and bljat and second test!!!'
+		#fuck your mum1
