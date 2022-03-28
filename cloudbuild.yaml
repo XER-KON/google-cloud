@@ -1,12 +1,14 @@
-runtime: python2?
-api_version: 1
-threadsafe: yes
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - functions
+  - deploy
+  - hello_world
+  - --source=.
+  - --trigger-http
+  - --runtime=python37
+  - --allow-unauthenticated
 
-handlers: 
-- url: .*
-  script: main.py
 
-libraries
-- name: webapp2
-  version: "2.5.2"
+
 
