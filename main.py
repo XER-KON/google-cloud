@@ -14,5 +14,5 @@ def hello_world(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'release trigger!'
+        return f'release trigger, 2. commit!'
 	
