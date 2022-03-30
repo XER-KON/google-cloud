@@ -14,5 +14,5 @@ def hello_world(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'Hello cloud advocates and bljat and second test!!!'
+        return f'release trigger!'
 	
